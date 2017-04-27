@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842DE12E1EAFF557007B6A82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DE12D1EAFF557007B6A82 /* AppDelegate.swift */; };
+		842DE1301EAFF557007B6A82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DE12F1EAFF557007B6A82 /* ViewController.swift */; };
+		842DE1331EAFF557007B6A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842DE1311EAFF557007B6A82 /* Main.storyboard */; };
+		842DE1351EAFF557007B6A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842DE1341EAFF557007B6A82 /* Assets.xcassets */; };
+		842DE1381EAFF557007B6A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842DE1361EAFF557007B6A82 /* LaunchScreen.storyboard */; };
+		842DE1431EAFF557007B6A82 /* stackada_stackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DE1421EAFF557007B6A82 /* stackada_stackTests.swift */; };
+		842DE14E1EAFF557007B6A82 /* stackada_stackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842DE14D1EAFF557007B6A82 /* stackada_stackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842DE13F1EAFF557007B6A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842DE1221EAFF557007B6A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842DE1291EAFF557007B6A82;
+			remoteInfo = "stackada-stack";
+		};
+		842DE14A1EAFF557007B6A82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842DE1221EAFF557007B6A82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842DE1291EAFF557007B6A82;
+			remoteInfo = "stackada-stack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842DE12A1EAFF557007B6A82 /* stackada-stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stackada-stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842DE12D1EAFF557007B6A82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		842DE12F1EAFF557007B6A82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		842DE1321EAFF557007B6A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842DE1341EAFF557007B6A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842DE1371EAFF557007B6A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842DE1391EAFF557007B6A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842DE13E1EAFF557007B6A82 /* stackada-stackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stackada-stackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842DE1421EAFF557007B6A82 /* stackada_stackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackada_stackTests.swift; sourceTree = "<group>"; };
+		842DE1441EAFF557007B6A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842DE1491EAFF557007B6A82 /* stackada-stackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stackada-stackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842DE14D1EAFF557007B6A82 /* stackada_stackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackada_stackUITests.swift; sourceTree = "<group>"; };
+		842DE14F1EAFF557007B6A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842DE1271EAFF557007B6A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DE13B1EAFF557007B6A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DE1461EAFF557007B6A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842DE1211EAFF557007B6A82 = {
+			isa = PBXGroup;
+			children = (
+				842DE12C1EAFF557007B6A82 /* stackada-stack */,
+				842DE1411EAFF557007B6A82 /* stackada-stackTests */,
+				842DE14C1EAFF557007B6A82 /* stackada-stackUITests */,
+				842DE12B1EAFF557007B6A82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842DE12B1EAFF557007B6A82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842DE12A1EAFF557007B6A82 /* stackada-stack.app */,
+				842DE13E1EAFF557007B6A82 /* stackada-stackTests.xctest */,
+				842DE1491EAFF557007B6A82 /* stackada-stackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842DE12C1EAFF557007B6A82 /* stackada-stack */ = {
+			isa = PBXGroup;
+			children = (
+				842DE12D1EAFF557007B6A82 /* AppDelegate.swift */,
+				842DE12F1EAFF557007B6A82 /* ViewController.swift */,
+				842DE1311EAFF557007B6A82 /* Main.storyboard */,
+				842DE1341EAFF557007B6A82 /* Assets.xcassets */,
+				842DE1361EAFF557007B6A82 /* LaunchScreen.storyboard */,
+				842DE1391EAFF557007B6A82 /* Info.plist */,
+			);
+			path = "stackada-stack";
+			sourceTree = "<group>";
+		};
+		842DE1411EAFF557007B6A82 /* stackada-stackTests */ = {
+			isa = PBXGroup;
+			children = (
+				842DE1421EAFF557007B6A82 /* stackada_stackTests.swift */,
+				842DE1441EAFF557007B6A82 /* Info.plist */,
+			);
+			path = "stackada-stackTests";
+			sourceTree = "<group>";
+		};
+		842DE14C1EAFF557007B6A82 /* stackada-stackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				842DE14D1EAFF557007B6A82 /* stackada_stackUITests.swift */,
+				842DE14F1EAFF557007B6A82 /* Info.plist */,
+			);
+			path = "stackada-stackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842DE1291EAFF557007B6A82 /* stackada-stack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842DE1521EAFF557007B6A82 /* Build configuration list for PBXNativeTarget "stackada-stack" */;
+			buildPhases = (
+				842DE1261EAFF557007B6A82 /* Sources */,
+				842DE1271EAFF557007B6A82 /* Frameworks */,
+				842DE1281EAFF557007B6A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "stackada-stack";
+			productName = "stackada-stack";
+			productReference = 842DE12A1EAFF557007B6A82 /* stackada-stack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842DE13D1EAFF557007B6A82 /* stackada-stackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842DE1551EAFF557007B6A82 /* Build configuration list for PBXNativeTarget "stackada-stackTests" */;
+			buildPhases = (
+				842DE13A1EAFF557007B6A82 /* Sources */,
+				842DE13B1EAFF557007B6A82 /* Frameworks */,
+				842DE13C1EAFF557007B6A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842DE1401EAFF557007B6A82 /* PBXTargetDependency */,
+			);
+			name = "stackada-stackTests";
+			productName = "stackada-stackTests";
+			productReference = 842DE13E1EAFF557007B6A82 /* stackada-stackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		842DE1481EAFF557007B6A82 /* stackada-stackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842DE1581EAFF557007B6A82 /* Build configuration list for PBXNativeTarget "stackada-stackUITests" */;
+			buildPhases = (
+				842DE1451EAFF557007B6A82 /* Sources */,
+				842DE1461EAFF557007B6A82 /* Frameworks */,
+				842DE1471EAFF557007B6A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842DE14B1EAFF557007B6A82 /* PBXTargetDependency */,
+			);
+			name = "stackada-stackUITests";
+			productName = "stackada-stackUITests";
+			productReference = 842DE1491EAFF557007B6A82 /* stackada-stackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842DE1221EAFF557007B6A82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mattowy;
+				TargetAttributes = {
+					842DE1291EAFF557007B6A82 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DA92K53Q8K;
+						ProvisioningStyle = Automatic;
+					};
+					842DE13D1EAFF557007B6A82 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DA92K53Q8K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 842DE1291EAFF557007B6A82;
+					};
+					842DE1481EAFF557007B6A82 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = DA92K53Q8K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 842DE1291EAFF557007B6A82;
+					};
+				};
+			};
+			buildConfigurationList = 842DE1251EAFF557007B6A82 /* Build configuration list for PBXProject "stackada-stack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842DE1211EAFF557007B6A82;
+			productRefGroup = 842DE12B1EAFF557007B6A82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842DE1291EAFF557007B6A82 /* stackada-stack */,
+				842DE13D1EAFF557007B6A82 /* stackada-stackTests */,
+				842DE1481EAFF557007B6A82 /* stackada-stackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842DE1281EAFF557007B6A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DE1381EAFF557007B6A82 /* LaunchScreen.storyboard in Resources */,
+				842DE1351EAFF557007B6A82 /* Assets.xcassets in Resources */,
+				842DE1331EAFF557007B6A82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DE13C1EAFF557007B6A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DE1471EAFF557007B6A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842DE1261EAFF557007B6A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DE1301EAFF557007B6A82 /* ViewController.swift in Sources */,
+				842DE12E1EAFF557007B6A82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DE13A1EAFF557007B6A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DE1431EAFF557007B6A82 /* stackada_stackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842DE1451EAFF557007B6A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DE14E1EAFF557007B6A82 /* stackada_stackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842DE1401EAFF557007B6A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842DE1291EAFF557007B6A82 /* stackada-stack */;
+			targetProxy = 842DE13F1EAFF557007B6A82 /* PBXContainerItemProxy */;
+		};
+		842DE14B1EAFF557007B6A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842DE1291EAFF557007B6A82 /* stackada-stack */;
+			targetProxy = 842DE14A1EAFF557007B6A82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842DE1311EAFF557007B6A82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842DE1321EAFF557007B6A82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842DE1361EAFF557007B6A82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842DE1371EAFF557007B6A82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842DE1501EAFF557007B6A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842DE1511EAFF557007B6A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842DE1531EAFF557007B6A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DA92K53Q8K;
+				INFOPLIST_FILE = "stackada-stack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattowy.stackada-stack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		842DE1541EAFF557007B6A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DA92K53Q8K;
+				INFOPLIST_FILE = "stackada-stack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattowy.stackada-stack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		842DE1561EAFF557007B6A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DA92K53Q8K;
+				INFOPLIST_FILE = "stackada-stackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattowy.stackada-stackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stackada-stack.app/stackada-stack";
+			};
+			name = Debug;
+		};
+		842DE1571EAFF557007B6A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DA92K53Q8K;
+				INFOPLIST_FILE = "stackada-stackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattowy.stackada-stackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stackada-stack.app/stackada-stack";
+			};
+			name = Release;
+		};
+		842DE1591EAFF557007B6A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DA92K53Q8K;
+				INFOPLIST_FILE = "stackada-stackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattowy.stackada-stackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "stackada-stack";
+			};
+			name = Debug;
+		};
+		842DE15A1EAFF557007B6A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DA92K53Q8K;
+				INFOPLIST_FILE = "stackada-stackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mattowy.stackada-stackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "stackada-stack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842DE1251EAFF557007B6A82 /* Build configuration list for PBXProject "stackada-stack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842DE1501EAFF557007B6A82 /* Debug */,
+				842DE1511EAFF557007B6A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842DE1521EAFF557007B6A82 /* Build configuration list for PBXNativeTarget "stackada-stack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842DE1531EAFF557007B6A82 /* Debug */,
+				842DE1541EAFF557007B6A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		842DE1551EAFF557007B6A82 /* Build configuration list for PBXNativeTarget "stackada-stackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842DE1561EAFF557007B6A82 /* Debug */,
+				842DE1571EAFF557007B6A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		842DE1581EAFF557007B6A82 /* Build configuration list for PBXNativeTarget "stackada-stackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842DE1591EAFF557007B6A82 /* Debug */,
+				842DE15A1EAFF557007B6A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842DE1221EAFF557007B6A82 /* Project object */;
+}
